@@ -1,11 +1,10 @@
 <template>
   <v-app>
-    <navigation />
+    <navigation :color="color" />
     <footer />
-    <v-main style="">
-      <router-view />
+    <v-main class="arrow_container ma-2">
+      <router-view class="main" />
     </v-main>
-    foot?
     <Footer />
   </v-app>
 </template>
@@ -16,7 +15,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #2565C7;
 }
 
 /* nav {
@@ -30,6 +29,47 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+} */
+
+
+.main {
+
+    z-index:-1;
+}
+
+.arrow_container {
+    float: left;
+    width: 100%;
+    padding-bottom: 150px;
+    position: relative;
+    overflow: hidden;
+    z-index:0;
+}
+
+/* f8f9ff */
+.arrow_container:before {
+    content: "";
+    width: 400px;
+    height: 400px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 400px 0 0 400px;
+    border-color: transparent transparent transparent #EFF1FB;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+/* */
+/* .arrow_container:after {
+    width: 100%;
+    height: 300px;
+    background: #EFF1FB;
+    position: absolute;
+    top: 50%;
+    content: "";
+    transform: skew(50deg) rotate(75deg);
 } */
 </style>
 

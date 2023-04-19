@@ -2,7 +2,7 @@
   <v-row class="justify-center mt-5">
     <v-col cols="10">
       At ATR Hoops, we offer several different training options. All training sessions will be personalized for each player’s individual skill level. Our innovative training sessions offer unique drills and workouts to increase players’ ability levels.
-
+      
       Please contact ATR Hoops here if interested in a training session at your home, hometown gym, or location other than Liberty High School. Please note that there will be a minimum training charge required for this service.
 
       Unless it has been established prior to booking, all training sessions will take place at the Liberty High School gymnasium located at 505 N Park St, Liberty, IL 62347. All equipment including basketballs will be provided.

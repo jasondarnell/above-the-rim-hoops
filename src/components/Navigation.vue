@@ -45,10 +45,15 @@
       :color="color"
       height="55"
       class="px-15"
-      style="color:#348AFF"
+      style="color:#102A51"
+      flat
     >
-      <v-toolbar-title style="font-size:24px" class="text-left">
-         <!-- <v-icon large class="px-3">trip_origin</v-icon> -->
+      <v-icon
+        end
+        color="#2565C7"
+        icon="mdi-basketball"
+      />
+      <v-toolbar-title style="font-size:20px" class="text-left">
          Above the Rim Hoops
       </v-toolbar-title>
       <v-spacer />
