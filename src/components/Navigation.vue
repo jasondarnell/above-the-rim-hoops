@@ -43,46 +43,53 @@
     <v-app-bar
       app
       :color="color"
-      :flat="flat"
-      dark
-      height="50"
+      height="55"
       class="px-15"
-      floating="true"
-      title="Above the Rim Hoops"
+      style="color:#348AFF"
     >
-      <!-- <v-toolbar-title>
-         <v-icon large class="px-3">trip_origin</v-icon>
-         Altmix Hoops
-      </v-toolbar-title> -->
+      <v-toolbar-title style="font-size:24px" class="text-left">
+         <!-- <v-icon large class="px-3">trip_origin</v-icon> -->
+         Above the Rim Hoops
+      </v-toolbar-title>
       <v-spacer />
       <v-app-bar-nav-icon
         @click.stop="drawer = !drawer"
         class="mr-4"
         v-if="isXs"
       />
-      <div v-else class="align-center">
-        <v-btn text  v-scroll-to="'#home'">
-          <span class="mr-2">Home</span>
-        </v-btn>
-        <v-btn text  v-scroll-to="'#services'">
-          <span class="mr-2">Book</span>
-        </v-btn>
-        <!-- <v-btn text  v-scroll-to="'#services'">
-          <span class="mr-2">Services</span>
-        </v-btn> -->
-        <v-btn text  v-scroll-to="'#services'">
-          <span class="mr-2">Training</span>
-        </v-btn>
-        <v-btn text  v-scroll-to="'#services'">
-          <span class="mr-2">Camps</span>
-        </v-btn>
-        <v-btn text v-scroll-to="'#about'">
-          <span class="mr-2">Merch</span>
-        </v-btn>
-        <v-btn rounded outlined text v-scroll-to="'#contact'" class="mx-1">
-          <span class="mr-2">Contact</span>
-        </v-btn>
-      </div>
+      <!-- <div v-else class="align-center"> -->
+        <!-- <router-link to="/">Home</router-link>
+        <router-link to="/about">About</router-link>
+        <router-link to="/training">Training</router-link>
+        <router-link to="/camps">Camps</router-link>
+        <router-link to="/merch">Merch</router-link>
+        <router-link to="/contact">Contact</router-link> -->
+
+        <!-- <v-toolbar-items class="hidden-xs-only"> -->
+          <v-btn to="/">
+            Home
+          </v-btn>
+          <v-btn to="/about">
+            About
+          </v-btn>
+          <v-btn to="/training">
+            Training
+          </v-btn>
+          <v-btn to="/camps">
+            Camps
+          </v-btn>
+          <v-btn to="/merchandise">
+            Merchandise
+          </v-btn>
+          <v-btn to="/contact">
+            Contact
+          </v-btn>
+          <v-divider class="mx-1" vertical />
+          <v-btn variant="outlined" color="primary" class="ml-4" to="/">
+            Book
+          </v-btn>
+        <!-- </v-toolbar-items> -->
+      <!-- </div> -->
     </v-app-bar>
   </div>
 </template>
@@ -102,14 +109,7 @@
 export default {
   data: () => ({
     drawer: null,
-    isXs: false,
-    items: [
-      ["mdi-home-outline", "Home", "#home"],
-      ["mdi-information-outline", "Services", "#services"],
-      // ["mdi-download-box-outline", "Download", "#download"],
-      // ["mdi-currency-usd", "Preços", "#pricing"],
-      ["mdi-email-outline", "Contact", "#contact"],
-    ],
+    isXs: false
   }),
   props: {
     color: String,

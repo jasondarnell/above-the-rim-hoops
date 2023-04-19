@@ -1,6 +1,6 @@
 <template>
   <v-footer dark padless>
-    yoooo
+    yoooo footer
     <v-card flat tile class="secondary white--text text-center">
       <!-- <v-card-text>
         <v-btn
@@ -23,7 +23,7 @@
       <v-divider></v-divider> -->
 
       <v-card-text class="white--text">
-        © {{ new Date().getFullYear() }} <strong>Altmix Hoops</strong>
+        © {{ new Date().getFullYear() }} <strong>Above the Rim Hoops</strong>
       </v-card-text>
     </v-card>
   </v-footer>

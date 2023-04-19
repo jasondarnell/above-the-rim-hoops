@@ -2,13 +2,11 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import vuetify from './plugins/vuetify'
 import { loadFonts } from './plugins/webfontloader'
-import VueScrollTo from "vue-scrollto";
+import router from './router'
 
 loadFonts()
 
 createApp(App)
+  .use(router)
   .use(vuetify)
-  .use(VueScrollTo, {
-    offset: -75
-  })
   .mount('#app')
