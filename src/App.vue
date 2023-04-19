@@ -1,11 +1,12 @@
 <template>
   <v-app>
     <navigation />
+    <footer />
     <v-main style="">
       <router-view />
     </v-main>
     foot?
-    <footer />
+    <Footer />
   </v-app>
 </template>
 
