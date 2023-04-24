@@ -3,7 +3,7 @@
     <v-navigation-drawer
       v-model="drawer"
       app
-      temporary
+      temporary      
       dark
       src="../assets/img/bgDrawer.jpg"
     >
@@ -43,18 +43,19 @@
     <v-app-bar
       app
       :color="color"
-      height="55"
+      height="125"
       class="px-15"
-      style="color:#102A51"
+      style="color:#FFFFFF;background-color:#1D2758"
       flat
     >
       <v-icon
         end
         color="#2565C7"
         icon="mdi-basketball"
+        size="x-large"
       />
-      <v-toolbar-title style="font-size:20px" class="text-left">
-         Above the Rim Hoops
+      <v-toolbar-title style="font-size:24px" class="text-center">
+         Above the Rim <br /> Hoops
       </v-toolbar-title>
       <v-spacer />
       <v-app-bar-nav-icon
