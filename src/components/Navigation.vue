@@ -43,20 +43,15 @@
     <v-app-bar
       app
       :color="color"
-      height="125"
+      height="150"
       class="px-15"
-      style="color:#FFFFFF;background-color:#1D2758"
+      style="color:#013069"
       flat
     >
-      <v-icon
-        end
-        color="#2565C7"
-        icon="mdi-basketball"
-        size="x-large"
-      />
-      <v-toolbar-title style="font-size:24px" class="text-center">
+      <v-img src="src/assets/logo.png" contain />
+      <!-- <v-toolbar-title style="font-size:24px" class="text-center">
          Above the Rim <br /> Hoops
-      </v-toolbar-title>
+      </v-toolbar-title> -->
       <v-spacer />
       <v-app-bar-nav-icon
         @click.stop="drawer = !drawer"
