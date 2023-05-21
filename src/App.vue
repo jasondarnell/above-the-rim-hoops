@@ -2,8 +2,8 @@
   <v-app>
     <navigation :color="color" />
     <footer />
-    <v-main class="arrow_container ma-2">
-      <router-view class="main" />
+    <v-main class="main my-2">
+      <router-view class="" />
     </v-main>
     <Footer />
   </v-app>
@@ -15,7 +15,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #013069;
+  color: #122044;
 }
 
 /* nav {
@@ -34,20 +34,22 @@ nav a.router-link-exact-active {
 
 .main {
 
-    z-index:-1;
+    /* z-index:-1; */
+    /* color: white */
+    background-color: #122044;
+    color: white;
 }
 
-.arrow_container {
+/* .arrow_container {
     float: left;
     width: 100%;
     padding-bottom: 150px;
     position: relative;
     overflow: hidden;
     z-index:0;
-}
+} */
 
-/* f8f9ff */
-.arrow_container:before {
+/* .arrow_container:before {
     content: "";
     width: 400px;
     height: 400px;
@@ -59,18 +61,10 @@ nav a.router-link-exact-active {
     position: absolute;
     left: 0;
     bottom: 0;
-}
-
-/* */
-/* .arrow_container:after {
-    width: 100%;
-    height: 300px;
-    background: #EFF1FB;
-    position: absolute;
-    top: 50%;
-    content: "";
-    transform: skew(50deg) rotate(75deg);
 } */
+
+
+
 </style>
 
 <script>

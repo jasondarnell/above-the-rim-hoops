@@ -70,23 +70,28 @@
           <v-btn to="/">
             Home
           </v-btn>
-          <v-btn to="/about">
-            About
-          </v-btn>
           <v-btn to="/training">
-            Training
+            Training & Services
+          </v-btn>
+          <v-btn to="/merchandise">
+            Merchandise
           </v-btn>
           <v-btn to="/camps">
             Camps
           </v-btn>
-          <v-btn to="/merchandise">
-            Merchandise
+          <v-btn to="/about">
+            About
           </v-btn>
           <v-btn to="/contact">
             Contact
           </v-btn>
           <v-divider class="mx-1" vertical />
-          <v-btn variant="outlined" color="primary" class="ml-4" to="/">
+          <v-btn 
+            variant="outlined" 
+            color="primary" 
+            class="ml-4" 
+            href="https://atr-hoops.square.site/"
+          >
             Book
           </v-btn>
         <!-- </v-toolbar-items> -->

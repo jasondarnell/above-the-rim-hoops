@@ -1,6 +1,6 @@
 <template>
-  <div style="margin-top:55px">
-    <v-row class="justify-center mt-5">
+  <div style="margin-top:55px;background-color: #122044">
+    <v-row class="justify-center my-5">
       <v-col cols="10" class="">
         <v-carousel
           cycle
@@ -9,33 +9,25 @@
           show-arrows="hover"
         >
           <v-carousel-item
-            v-for="(slide, i) in slides"
+            v-for="(img, i) in images"
             :key="i"
           >
-            <v-sheet
-              :color="colors[i]"
-              height="100%"
-            >
-              <div class="d-flex fill-height justify-center align-center">
-                <div class="text-h2">
-                  {{ slide }} Slide
-                </div>
-              </div>
-            </v-sheet>
+            <v-img :src="img" />
           </v-carousel-item>
         </v-carousel>
       </v-col>
     </v-row>
     <v-row class="justify-center my-8">
-      <v-col cols="9" class="text-h3">
-        Practice makes perfect 
+      <v-col cols="9" class="text-h2">
+        <span style="font-family: 'Permanent Marker'">Above The Rim Hoops </span>
       </v-col>
     </v-row>
-    <v-row class="justify-center mt-5">
+    <v-row class="justify-center my-5">
       <v-col cols="3">
         <v-btn 
-          color="primary"
+          color="white"
           size="x-large"
+          href="https://atr-hoops.square.site/"
         >
           Book Now
         </v-btn>
@@ -53,20 +45,10 @@ export default {
   },
   data(){
     return {
-      colors: [
-      'indigo',
-      'warning',
-      'pink darken-2',
-      'red lighten-1',
-      'deep-purple accent-4',
-    ],
-    slides: [
-      'First',
-      'Second',
-      'Third',
-      'Fourth',
-      'Fifth',
-    ],
+      images: [
+        'src/assets/logo_2_white.png',
+        'src/assets/merchandise/tshirt_1.png'
+      ]
     }
   } 
 }

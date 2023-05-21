@@ -12,7 +12,7 @@ const lightTheme = {
   colors: {
     background: '#FFFFFF',
     surface: '#FFFFFF',
-    primary: '#2565C7',
+    primary: '#122044',
     'primary-darken-1': '#FF0000',
     secondary: '#00FF00',
     'secondary-darken-1': 'FF0000',
