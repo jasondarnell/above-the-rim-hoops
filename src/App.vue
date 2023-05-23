@@ -40,6 +40,10 @@ nav a.router-link-exact-active {
     color: white;
 }
 
+.v-btn {
+  color: #122044;
+}
+
 .v-carousel {
   color: #122044
 }
