@@ -1,9 +1,9 @@
 <template>
-  <div style="margin-top:55px;background-color: #122044">
-    <v-row class="justify-center">
-      <v-col cols="9" class="text-h4">
-        ATR Hoops Merchandise
-      </v-col>
+  <v-container>
+    <v-row class="justify-center my-3">
+      <h1>
+        Merchandise
+      </h1>
     </v-row>
     <v-row class="justify-center my-5">
       <v-col cols="10" class="">
@@ -29,11 +29,16 @@
           size="x-large"
           href="https://atr-hoops.square.site/"
         >
-          Order Now
+          View Products
         </v-btn>
+        <br />
+    
+        <div class="ma-3 text-subtitle-2">
+          Click "Shop All" in Square website
+        </div>
       </v-col>
     </v-row>
-  </div>
+  </v-container>
 </template>
 
 <script>
