@@ -46,6 +46,7 @@ export default {
   data(){
     return {
       images: [
+        'src/assets/home_page_services.png',
         'src/assets/logo_2_white.png',
         'src/assets/merchandise/tshirt_1.png'
       ]
