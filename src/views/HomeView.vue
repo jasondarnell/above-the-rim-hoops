@@ -7,7 +7,6 @@
           height="400"
           hide-delimiter-background
           show-arrows="hover"
-          style="color: #122044"
         >
           <v-carousel-item
             v-for="(img, i) in images"
