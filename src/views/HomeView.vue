@@ -1,5 +1,5 @@
 <template>
-  <div style="margin-top:55px;background-color: #122044">
+  <div style="margin-top:55px;">
     <v-row class="justify-center my-5">
       <v-col cols="10" class="">
         <v-carousel
@@ -7,6 +7,7 @@
           height="400"
           hide-delimiter-background
           show-arrows="hover"
+          style="color: #122044"
         >
           <v-carousel-item
             v-for="(img, i) in images"
@@ -41,7 +42,7 @@
 export default {
   name: 'HomeView',
   components: {
-
+    
   },
   data(){
     return {

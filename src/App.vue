@@ -40,6 +40,10 @@ nav a.router-link-exact-active {
     color: white;
 }
 
+.v-carousel {
+  color: #122044
+}
+
 /* .arrow_container {
     float: left;
     width: 100%;
