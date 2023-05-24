@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import TrainingView from '../views/TrainingView.vue'
-import CampsView from '../views/CampsView.vue'
+import SummerGroupsView from '../views/SummerGroupsView.vue'
 import MerchandiseView from '../views/MerchandiseView.vue'
 import ContactView from '../views/ContactView.vue'
 
@@ -23,9 +23,9 @@ const routes = [
     component: TrainingView
   },
   {
-    path: '/camps',
-    name: 'camps',
-    component: CampsView
+    path: '/summer-groups',
+    name: 'summer-groups',
+    component: SummerGroupsView
   },
   {
     path: '/merchandise',

@@ -76,8 +76,8 @@
           <v-btn to="/merchandise">
             Merchandise
           </v-btn>
-          <v-btn to="/camps">
-            Summer Group Sessions
+          <v-btn to="/summer-groups">
+            Summer Groups
           </v-btn>
           <v-btn to="/about">
             About

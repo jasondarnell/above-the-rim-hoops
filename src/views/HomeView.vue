@@ -4,6 +4,7 @@
       <v-col cols="10" class="">
         <v-carousel
           cycle
+          dark
           height="400"
           hide-delimiter-background
           show-arrows="hover"
@@ -46,6 +47,7 @@ export default {
   data(){
     return {
       images: [
+        'src/assets/alex.png',
         'src/assets/home_page_services.png',
         'src/assets/logo_2_white.png',
         'src/assets/merchandise/tshirt_1.png'

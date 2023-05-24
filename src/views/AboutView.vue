@@ -1,9 +1,11 @@
 <template>
   <v-container>
-    <v-row class="justify-center my-2">
-      <h1>
-        About
-      </h1>
+    <v-row class="text-left my-2">
+      <v-col cols="12">
+        <h1>
+          About
+        </h1>
+      </v-col>
     </v-row>
     <v-row class="text-left justify-center">
       <v-col cols=8>
@@ -22,10 +24,12 @@
         />
       </v-col>
     </v-row>
-    <v-row class="justify-center my-5">
-      <h1>
-        Trainers
-      </h1>
+    <v-row class="text-left my-2">
+      <v-col cols="12">
+        <h1>
+          Trainers
+        </h1>
+      </v-col>
     </v-row>
     <v-row class="text-left justify-center my-3">
       <v-col cols=8>

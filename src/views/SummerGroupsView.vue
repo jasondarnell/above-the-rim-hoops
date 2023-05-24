@@ -58,7 +58,7 @@
             Grades 6-8
           </v-card-title>
           <v-card-actions class="justify-center mt-3">
-            <v-btn variant="outlined" href="https://checkout.square.site/merchant/MLEFAZF7N9ZFJ/checkout/7FCOLDHJMFZRDYUGQZLGRSZF">
+            <v-btn variant="outlined" href="https://checkout.square.site/merchant/MLEFAZF7N9ZFJ/checkout/6KU3I7FTOY6FN2OQM53RFSQ6">
               Register Now
             </v-btn>
           </v-card-actions>
@@ -71,7 +71,7 @@
 <script>
 
 export default {
-  name: 'CampsView',
+  name: 'SummerGroupsView',
   components: {
 
   }

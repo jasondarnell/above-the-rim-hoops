@@ -25,7 +25,7 @@
           variant="outlined"
           style="height:100%"
         >
-          <v-card-title>
+          <v-card-title class="text-h5">
             Individual Training
           </v-card-title>
           <v-card-text class="text-subtitle-1">
@@ -53,10 +53,10 @@
           variant="outlined"
           style="height:100%"
         >
-          <v-card-title>
+          <v-card-title class="text-h5">
             Team Training
           </v-card-title>
-          <v-card-text class="text-body-1">
+          <v-card-text class="text-body-1 mx-5">
             Training session for five or more players at one time. 
             <br /> <br />
             Team training is perfect for multiple members of a school or traveling team and can be ran more like a practice.
@@ -98,11 +98,12 @@
       <v-col cols="12">
         <v-card
           variant="outlined"
+          class="pa-3"
         >
-          <v-card-title>
+          <v-card-title class="text-h5">
             Personalized Training Regimen
           </v-card-title>
-          <v-card-text>
+          <v-card-text class="px-16">
             ATR Hoops offers a personalized training regimen prepared without actually meeting in-person for a workout. The personalized training regimen is perfect for athletes who are looking for an approximately hour-long workout he or she could independently do from any court at any time. 
             <br /><br />
             <div class="text-h5">$25</div>
@@ -121,11 +122,12 @@
       <v-col cols="12">
         <v-card
           variant="outlined"
+          class="pa-3"
         >
-          <v-card-title>
+          <v-card-title class="text-h5">
             Personalized Shooting Breakdown
           </v-card-title>
-          <v-card-text>
+          <v-card-text class="px-16">
             ATR Hoops offers a personalized breakdown of your shot complete with recommendations and drills to improve your shooting skills. The personalized shooting analysis is a great way to improve your scoring ability without having to leave the comfort of your own driveway or court. ATR will ask for a few videos of your shot and in return will send you a video breakdown. Please expect a few days of turnaround time with the personalized shooting analysis. 
             <br /><br />
             <div class="text-h5">$40</div>
@@ -144,12 +146,17 @@
       <v-col cols="12">
         <v-card
           variant="outlined"
+          class="pa-3"
         >
-          <v-card-title>
+          <v-card-title class="text-h5">
             Personalized Game-Film Analysis
           </v-card-title>
-          <v-card-text>
+          <v-card-text class="px-16">
             Unfortunately, high school and AAU coaches do not have the time to breakdown each individual player’s in-game performance. Hudl and other services are great, but they do not offer any real coaching advice. At ATR Hoops, we offer a personalized breakdown of game film complete with in-game recommendations, strategical tips, and drill work for future success. Game footage can be easily shared through Hudl, Google, or a number of other ways. Personalized game-film analysis is one of the foremost ways for players to improve their game in-season. 
+            <br /><br />
+            (Please note, game-film analysis will not be done for 1A Illinois boy’s basketball players due to potential conflict of interest. All other boys and girls players from any locations, including any other Illinois boys’ classes, are gladly accepted.)
+
+            
             <br /><br />
             <div class="text-h5">$35</div>
           </v-card-text>
@@ -163,20 +170,23 @@
           </v-btn>
           </v-card-actions>
         </v-card>
-        <div class="text-subtitle-2">
-          (Please note, game-film analysis will not be done for 1A Illinois boy’s basketball players due to potential conflict of interest. All other boys and girls players from any locations, including any other Illinois boys’ classes, are gladly accepted.)
-        </div>
+      </v-col>
+      <v-col cols="12">
+        <v-card
+          variant="outlined"
+          class="pa-3"
+        >
+          <v-card-title class="text-h5">
+            Motivational Speaking
+          </v-card-title>
+          <v-card-text class="px-16">
+            ATR Hoops has speakers willing to come and talk with your team or group to motivate and push them to be their best. 
+            <br /><br />
+            Please contact ATR Hoops for more details and pricing.
+          </v-card-text>
+        </v-card>
       </v-col>
     </v-row>
-    <v-divider class="my-5" />
-    <v-row class="justify-center">
-      <v-col cols="10" class="text-subtitle-1">
-        <b>Motivational Speaking</b>
-        <br />
-        ATR Hoops has speakers willing to come and talk with your team or group to motivate and push them to be their best. Please contact ATR Hoops for more details and pricing.
-      </v-col>
-    </v-row>
-
   </v-container>
 </template>
 
