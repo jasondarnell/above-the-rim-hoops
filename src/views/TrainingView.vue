@@ -84,10 +84,10 @@
     <v-row class="justify-center">
       <v-col cols="12">
         <div class="text-body-2">
-
+          Unless it has been established prior to booking, all training sessions will take place at the Liberty High School gymnasium located at 505 N Park St, Liberty, IL 62347. 
           Please contact ATR Hoops if interested in a training session at your home, hometown gym, or location other than Liberty High School. Please note that there will be a minimum training charge required for this service.
-
-          Unless it has been established prior to booking, all training sessions will take place at the Liberty High School gymnasium located at 505 N Park St, Liberty, IL 62347. All equipment including basketballs will be provided.
+          <br /><br/>
+          All equipment including basketballs will be provided.
 
         </div>
       </v-col>
