@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vite preview",
-    "build": "vite build --base=/above-the-rim-hoops/",
+    "build": "vite build", 
+    "build-base": "vite build --base=/above-the-rim-hoops/",
     "lint": "vue-cli-service lint",
     "dev": "vite"
   },
