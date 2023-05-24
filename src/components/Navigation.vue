@@ -19,7 +19,7 @@
       <v-list dense>
         <v-list-item
           link
-          href="home"
+          href="/"
         >
           <!-- <v-list-item-icon class="justify-center">
             <v-icon>{{ icon }}</v-icon>
@@ -80,7 +80,6 @@
     >
       <v-app-bar-nav-icon
         @click.stop="drawer = !drawer"
-        class="mr-4"
         v-if="isXs"
       />
       <v-img src="src/assets/logo.png" width="100px" contain />

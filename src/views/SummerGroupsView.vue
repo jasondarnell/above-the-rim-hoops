@@ -16,14 +16,14 @@
       </v-col>
     </v-row>
     <v-row class="justify-center">
-      <v-col cols="4">
+      <v-col cols="12" md="4">
         <v-img
           src="src/assets/group_sessions.jpg"
           style="width:100%"
         />
         <br />
       </v-col>
-      <v-col cols="6" class="text-left text-body-1">
+      <v-col cols="12" md="6" class="text-left text-body-1">
         <div class="mx-6">
           <b>Dates:</b> Mondays June 5th - June 26th (4 weeks) <br />
           <b>Time:</b> 5-6 PM (Grades 3-5) <br />
@@ -41,7 +41,7 @@
     </v-row>
     <v-row class="justify-center">
       <v-col 
-        xs="12"
+        cols="12"
         md="4"
       >
         <v-card elevation="5" class="pa-2">
@@ -56,7 +56,7 @@
         </v-card>
       </v-col>
       <v-col 
-        xs="12"
+        cols="12"
         md="4"
       >
         <v-card elevation="5" class="pa-2">

@@ -1,7 +1,8 @@
 <template>
-  <div style="margin-top:55px;">
-    <v-row class="justify-center">
-      <v-col cols="10" class="">
+  <v-container>
+    <v-row class="justify-center mt-8">
+      <v-col cols="12" md="10" class="">
+        <!-- delimiter-icon="mdi-basketball" -->
         <v-carousel
           cycle
           dark
@@ -19,12 +20,12 @@
       </v-col>
     </v-row>
     <v-row class="justify-center my-8">
-      <v-col cols="9" class="text-h2">
+      <v-col cols="12" md="9" class="text-h2">
         <span style="font-family: 'Permanent Marker'">Above The Rim Hoops </span>
       </v-col>
     </v-row>
     <v-row class="justify-center my-5">
-      <v-col cols="3">
+      <v-col cols="9" md="3">
         <v-btn 
           color="white"
           size="x-large"
@@ -34,7 +35,7 @@
         </v-btn>
       </v-col>
     </v-row>
-  </div>
+  </v-container>
 </template>
 
 <script>
