@@ -26,9 +26,9 @@
       <v-col cols="6" class="text-left text-body-1">
         <div class="mx-6">
           <b>Dates:</b> Mondays June 5th - June 26th (4 weeks) <br />
-          <b>Time:</b><br/>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5-6 PM (Grades 3-5) <br />
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6-7 PM (Grades 6-8) <br />
+          <b>Time:</b> 5-6 PM (Grades 3-5) <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          6-7 PM (Grades 6-8) <br />
           <b>Location:</b> Liberty High School Gym <br/>
           <b>Cost:</b> $75 for all four sessions total
           <br /><br />
@@ -40,7 +40,10 @@
       <h3>Sign up is open now!</h3>
     </v-row>
     <v-row class="justify-center">
-      <v-col cols="4">
+      <v-col 
+        xs="12"
+        md="4"
+      >
         <v-card elevation="5" class="pa-2">
           <v-card-title class="text-h5">
             Grades 3-5
@@ -52,7 +55,10 @@
           </v-card-actions>
         </v-card>
       </v-col>
-      <v-col cols="4">
+      <v-col 
+        xs="12"
+        md="4"
+      >
         <v-card elevation="5" class="pa-2">
           <v-card-title class="text-h5">
             Grades 6-8

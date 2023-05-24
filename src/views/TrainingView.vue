@@ -20,7 +20,10 @@
       </v-col>
     </v-row>    
     <v-row>
-      <v-col cols="6">
+      <v-col 
+        xs="12"
+        md="6"
+      >
         <v-card
           variant="outlined"
           style="height:100%"
@@ -48,7 +51,10 @@
           </v-card-actions>
         </v-card>
       </v-col>
-      <v-col cols="6">
+      <v-col
+        xs="12"
+        md="6"
+      >
         <v-card
           variant="outlined"
           style="height:100%"

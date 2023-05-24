@@ -5,16 +5,11 @@
       app
       temporary      
       dark
-      src="../assets/img/bgDrawer.jpg"
     >
       <v-list>
         <v-list-item>
-          <!-- <v-list-item-avatar>
-            <v-icon large class="px-3">trip_origin</v-icon>
-          </v-list-item-avatar> -->
           <v-list-item-content>
             <v-list-item-title class="title">Above the Rim Hoops</v-list-item-title>
-            <!-- <v-list-item-subtitle>WEB</v-list-item-subtitle> -->
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -23,19 +18,54 @@
 
       <v-list dense>
         <v-list-item
-          v-for="([icon, text, link], i) in items"
-          :key="i"
           link
-          @click="$vuetify.goTo(link)"
-          v-scroll-to="link"
+          href="home"
         >
-          <v-list-item-icon class="justify-center">
+          <!-- <v-list-item-icon class="justify-center">
             <v-icon>{{ icon }}</v-icon>
-          </v-list-item-icon>
+          </v-list-item-icon> -->
           <v-list-item-content>
-            <v-list-item-title class="subtitile-1">{{
-              text
-            }}</v-list-item-title>
+            <v-list-item-title class="subtitile-1">Home</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+          link
+          href="training"
+        >
+          <v-list-item-content>
+            <v-list-item-title class="subtitile-1">Training & Services</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+          link
+          href="merchandise"
+        >
+          <v-list-item-content>
+            <v-list-item-title class="subtitile-1">Merchandise</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+          link
+          href="summer-groups"
+        >
+          <v-list-item-content>
+            <v-list-item-title class="subtitile-1">Summer Groups</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+          link
+          href="about"
+        >
+          <v-list-item-content>
+            <v-list-item-title class="subtitile-1">About</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+        <v-list-item
+          link
+          href="contact"
+        >
+          <v-list-item-content>
+            <v-list-item-title class="subtitile-1">Contact</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -48,16 +78,17 @@
       style="color:#013069"
       flat
     >
-      <v-img src="src/assets/logo.png" contain />
-      <!-- <v-toolbar-title style="font-size:24px" class="text-center">
-         Above the Rim <br /> Hoops
-      </v-toolbar-title> -->
-      <v-spacer />
       <v-app-bar-nav-icon
         @click.stop="drawer = !drawer"
         class="mr-4"
         v-if="isXs"
       />
+      <v-img src="src/assets/logo.png" width="100px" contain />
+      
+      <!-- <v-toolbar-title style="font-size:24px" class="text-center">
+         Above the Rim <br /> Hoops
+      </v-toolbar-title> -->
+
       <!-- <div v-else class="align-center"> -->
         <!-- <router-link to="/">Home</router-link>
         <router-link to="/about">About</router-link>
@@ -65,8 +96,7 @@
         <router-link to="/camps">Camps</router-link>
         <router-link to="/merch">Merch</router-link>
         <router-link to="/contact">Contact</router-link> -->
-
-        <!-- <v-toolbar-items class="hidden-xs-only"> -->
+        <template v-slot:append  v-if="!isXs">
           <v-btn to="/">
             Home
           </v-btn>
@@ -94,7 +124,7 @@
           >
             Book
           </v-btn>
-        <!-- </v-toolbar-items> -->
+        </template>
       <!-- </div> -->
     </v-app-bar>
   </div>

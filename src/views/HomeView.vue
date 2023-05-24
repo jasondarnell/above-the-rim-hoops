@@ -1,11 +1,11 @@
 <template>
   <div style="margin-top:55px;">
-    <v-row class="justify-center my-5">
+    <v-row class="justify-center">
       <v-col cols="10" class="">
         <v-carousel
           cycle
           dark
-          height="400"
+          height="350"
           hide-delimiter-background
           show-arrows="hover"
         >

@@ -23,7 +23,7 @@
       </v-col>
     </v-row>
     <v-row class="justify-center my-8">
-      <v-col cols="3">
+      <v-col cols="6">
         <v-btn 
           color="white"
           size="x-large"
