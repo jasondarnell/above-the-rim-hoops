@@ -39,8 +39,10 @@ const routes = [
   }
 ]
 
+const base = window.location.href.includes("github") ? "/above-the-rim-hoops/" : "/";
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(base),
+  base: base,
   routes
 })
 
