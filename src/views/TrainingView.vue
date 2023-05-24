@@ -27,6 +27,7 @@
         <v-card
           variant="outlined"
           style="height:100%"
+          class="pa-3"
         >
           <v-card-title class="text-h5">
             Individual Training
@@ -58,6 +59,7 @@
         <v-card
           variant="outlined"
           style="height:100%"
+          class="pa-3"
         >
           <v-card-title class="text-h5">
             Team Training
