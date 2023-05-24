@@ -19,7 +19,7 @@
       <v-list dense>
         <v-list-item
           link
-          href="/"
+          to="/"
         >
           <!-- <v-list-item-icon class="justify-center">
             <v-icon>{{ icon }}</v-icon>
@@ -30,7 +30,7 @@
         </v-list-item>
         <v-list-item
           link
-          href="training"
+          to="training"
         >
           <v-list-item-content>
             <v-list-item-title class="subtitile-1">Training & Services</v-list-item-title>
@@ -38,7 +38,7 @@
         </v-list-item>
         <v-list-item
           link
-          href="merchandise"
+          to="merchandise"
         >
           <v-list-item-content>
             <v-list-item-title class="subtitile-1">Merchandise</v-list-item-title>
@@ -46,7 +46,7 @@
         </v-list-item>
         <v-list-item
           link
-          href="summer-groups"
+          to="summer-groups"
         >
           <v-list-item-content>
             <v-list-item-title class="subtitile-1">Summer Groups</v-list-item-title>
@@ -54,7 +54,7 @@
         </v-list-item>
         <v-list-item
           link
-          href="about"
+          to="about"
         >
           <v-list-item-content>
             <v-list-item-title class="subtitile-1">About</v-list-item-title>
@@ -62,7 +62,7 @@
         </v-list-item>
         <v-list-item
           link
-          href="contact"
+          to="contact"
         >
           <v-list-item-content>
             <v-list-item-title class="subtitile-1">Contact</v-list-item-title>
