@@ -8,7 +8,7 @@
     <v-row class="text-left justify-center">
       <v-col cols="6" md="3">
         <v-img
-          src="src/assets/alex_headshot.jpg"
+          src="assets/alex_headshot.jpg"
           style="width:90%"
         />
       </v-col>

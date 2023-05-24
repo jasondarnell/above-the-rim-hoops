@@ -19,7 +19,7 @@
       <v-col cols="1" />
       <v-col cols="12" md="3" class="justify-center">
         <v-img
-          src="src/assets/logo_2_white.png"
+          src="assets/logo_2_white.png"
           style="width:75%"
         />
       </v-col>
@@ -46,7 +46,7 @@
       <v-col cols=1 />
       <v-col cols="12" md="3">
         <v-img
-          src="src/assets/alex_headshot.jpg"
+          src="assets/alex_headshot.jpg"
           style="width:75%"
         />
       </v-col>

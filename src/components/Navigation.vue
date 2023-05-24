@@ -82,7 +82,7 @@
         @click.stop="drawer = !drawer"
         v-if="isXs"
       />
-      <v-img src="src/assets/logo.png" width="100px" contain />
+      <v-img src="assets/logo.png" width="100px" contain />
       
       <!-- <v-toolbar-title style="font-size:24px" class="text-center">
          Above the Rim <br /> Hoops

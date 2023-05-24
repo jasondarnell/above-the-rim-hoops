@@ -58,10 +58,10 @@ export default {
       'deep-purple accent-4',
     ],
     images: [
-      'src/assets/merchandise/hat_1.png',
-      'src/assets/merchandise/tshirt_1.png',
-      'src/assets/merchandise/crew_neck_1.png',
-      'src/assets/merchandise/hoodie_1.png',
+      'assets/merchandise/hat_1.png',
+      'assets/merchandise/tshirt_1.png',
+      'assets/merchandise/crew_neck_1.png',
+      'assets/merchandise/hoodie_1.png',
     ],
     }
   } 

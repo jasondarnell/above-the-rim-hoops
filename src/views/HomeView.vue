@@ -48,10 +48,10 @@ export default {
   data(){
     return {
       images: [
-        'src/assets/alex.png',
-        'src/assets/home_page_services.png',
-        'src/assets/logo_2_white.png',
-        'src/assets/merchandise/tshirt_1.png'
+        'assets/alex.png',
+        'assets/home_page_services.png',
+        'assets/logo_2_white.png',
+        'assets/merchandise/tshirt_1.png'
       ]
     }
   } 

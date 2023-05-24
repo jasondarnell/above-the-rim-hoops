@@ -18,7 +18,7 @@
     <v-row class="justify-center">
       <v-col cols="12" md="4">
         <v-img
-          src="src/assets/group_sessions.jpg"
+          src="assets/group_sessions.jpg"
           style="width:100%"
         />
         <br />
