@@ -52,6 +52,11 @@ nav a.router-link-exact-active {
   color: white;
 }
 
+.v-card .v-card-title {
+    text-overflow: initial!important;
+    white-space: initial!important;
+}
+
 /* .arrow_container {
     float: left;
     width: 100%;
