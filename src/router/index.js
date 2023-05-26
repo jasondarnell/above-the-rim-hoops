@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import AboutView from '../views/AboutView.vue'
 import TrainingView from '../views/TrainingView.vue'
@@ -41,7 +41,7 @@ const routes = [
 
 const base = window.location.href.includes("github") ? "/above-the-rim-hoops/" : "/";
 const router = createRouter({
-  history: createWebHashHistory(base),
+  history: createWebHistory(base),
   base: base,
   routes
 })
