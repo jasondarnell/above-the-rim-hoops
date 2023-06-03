@@ -26,7 +26,7 @@ jobs:
       run: npm i
 
     - name: Build
-      run: npm run build && echo \"atrhoops.com\" > dist/CNAME
+      run: npm run build && echo atrhoops.com > dist/CNAME
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
