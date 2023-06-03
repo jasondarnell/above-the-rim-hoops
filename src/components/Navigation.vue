@@ -44,14 +44,14 @@
             <v-list-item-title class="subtitile-1">Merchandise</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item
+        <!-- <v-list-item
           link
           to="summer-groups"
         >
           <v-list-item-content>
             <v-list-item-title class="subtitile-1">Summer Groups</v-list-item-title>
           </v-list-item-content>
-        </v-list-item>
+        </v-list-item> -->
         <v-list-item
           link
           to="about"
@@ -105,9 +105,9 @@
           <v-btn to="/merchandise">
             Merchandise
           </v-btn>
-          <v-btn to="/summer-groups">
+          <!-- <v-btn to="/summer-groups">
             Summer Groups
-          </v-btn>
+          </v-btn> -->
           <v-btn to="/about">
             About
           </v-btn>
